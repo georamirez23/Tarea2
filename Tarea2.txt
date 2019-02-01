@@ -1,0 +1,54 @@
+# ejemplo 1
+
+mis_valores=[5,6,10,13,3,4]
+promedio=sum(mis_valores)/len(mis_valores)
+print (promedio)
+6.833333333333333
+
+suma = 0
+ for e in mis_valores:
+     suma= suma + e
+ print(suma/len(mis_valores))
+ 6.833333333333333
+
+In [49]: def promedio(lista):
+    ...:     return sum(lista)/len(lista)
+    ...:
+In [50]: promedio(mis_valores)
+Out[50]: 6.833333333333333
+ 
+#Ejemplo 2
+
+In [51]: grupo1=[177,145,167,190,140,150,180,130]
+
+In [52]: grupo2=[165,176,145,189,170,189,159,190]
+
+In [53]: grupo3=[145,136,178,200,123,145,145,134]
+
+In [54]: grupo4=[201,110,187,175,156,165,156,135]
+
+In [55]: g1=max(grupo1)
+
+In [56]: g1
+Out[56]: 190
+
+In [57]: g2=max(grupo2)
+
+In [58]: g3=max(grupo3)
+
+In [59]: g4=max(grupo4)
+
+In [60]: g2
+Out[60]: 190
+
+In [61]: g3
+Out[61]: 200
+
+In [62]: g4
+Out[62]: 201
+
+In [63]: grupo5=[g1,g2,g3,g4]
+
+In [64]: ganador=max(grupo5)
+
+In [65]: print(ganador)
